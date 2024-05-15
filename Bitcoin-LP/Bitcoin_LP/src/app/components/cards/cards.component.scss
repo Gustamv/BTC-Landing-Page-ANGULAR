@@ -1,0 +1,45 @@
+.card-box {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex; /* Aplica um layout flexível */
+    flex-wrap: wrap; /* Permite que os cartões quebrem para a próxima linha quando necessário */
+    justify-content:center; /* Distribui os cartões igualmente ao longo do eixo principal */
+    margin-bottom: 200px;
+  }
+  
+  .card {
+    width: 450px;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 10px;
+    padding: 40px 30px 60px;
+    vertical-align: top;
+    color: #191c29;
+    background-color: white;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  #card-p {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  
+  #card-p2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .h4-card {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  
+  .img-card {
+    width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  

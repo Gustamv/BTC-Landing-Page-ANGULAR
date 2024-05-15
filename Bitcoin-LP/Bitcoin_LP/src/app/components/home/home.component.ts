@@ -2,6 +2,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { QuoteComponent } from '../quote/quote.component';
+import { CardsComponent } from '../cards/cards.component';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,7 @@ import { QuoteComponent } from '../quote/quote.component';
   imports: [
     HeaderComponent,
     QuoteComponent,
+    CardsComponent,
     
   ],
   templateUrl: './home.component.html',
