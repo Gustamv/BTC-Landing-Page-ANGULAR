@@ -1,0 +1,18 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #F7931A;
+  padding: 5px 40px;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.5;
+}
+main {
+  margin-top: 2px;
+  background: #212534;
+  padding: 5px 40px;
+  position: relative; /* Adiciona essa propriedade */
+  z-index: 1; /* Adiciona essa propriedade */
+}
