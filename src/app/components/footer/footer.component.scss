@@ -1,0 +1,23 @@
+footer {
+    margin-top: 2px;
+    background: #191c29;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+  }
+
+  footer a {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+  }
+
+  footer a:hover {
+    color: #f7931a;
+    font-family: 'Titillium Web', sans-serif;
+  }
